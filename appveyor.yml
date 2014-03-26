@@ -16,4 +16,4 @@ before_build:
 #---------------------------------#
 
 artifacts:
-  - path: AppVeyorSandbox\bin\Release\
+  - path: AppVeyorSandbox\bin\Release
