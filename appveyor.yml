@@ -1,0 +1,19 @@
+#---------------------------------#
+#       build configuration       #
+#---------------------------------#
+
+platform: AnyCPU
+configuration: Release
+
+build:
+  project: AppVeyorSandbox.sln
+
+before_build:
+  - nuget restore
+
+#---------------------------------#
+#      artifacts configuration    #
+#---------------------------------#
+
+artifacts:
+  - path: AppVeyorSandbox\bin\Release\
