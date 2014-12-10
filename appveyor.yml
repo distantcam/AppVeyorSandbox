@@ -2,7 +2,6 @@
 #       build configuration       #
 #---------------------------------#
 
-platform: AnyCPU
 configuration: Release
 
 build:
